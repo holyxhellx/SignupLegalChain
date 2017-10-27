@@ -1,0 +1,7 @@
+.container{
+    margin-top: 50px;
+}
+
+#success_message{ 
+    display: none;
+}
