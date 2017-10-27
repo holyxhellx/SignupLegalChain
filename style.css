@@ -1,5 +1,17 @@
+input[type=checkbox]{
+    transform: scale(1.5);
+}
+
 .container{
     margin-top: 50px;
+}
+
+.well{
+    margin-bottom: 0px !important;
+}
+
+.checkbox{
+    margin-left: 23px;
 }
 
 #success_message{ 
