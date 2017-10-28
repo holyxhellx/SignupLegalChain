@@ -9,7 +9,7 @@
 <script src="javascript.js"></script>
 <body>
     <div class="container">
-		<form class="well form-horizontal" action="https://formspree.io/asgerergod@gmail.com" method="post"  id="contact_form" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }" data-toggle="validator">
+		<form class="well form-horizontal" action="https://formspree.io/asgerergod@gmail.com" method="post"  id="contact_form" data-toggle="validator">
 			<fieldset>
 
 			<!-- Form Name -->
@@ -157,9 +157,6 @@
               	</div>
             </div>
 
-			<!-- Success message -->
-			<div class="col-md-4 col-md-offset-4 alert alert-success" role="alert" id="success_message"><i class="glyphicon glyphicon-thumbs-up"></i> Success!</div>
-
 			<!-- Button -->
 			<div class="form-group">
 			  <label class="col-md-4 control-label"></label>
@@ -167,6 +164,11 @@
 			    <button type="submit" class="btn btn-warning center-block" >
 			    	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
 			  </div>
+			</div>
+
+			<!-- Success message -->
+			<div class="form-group">
+				<div class="col-md-4 col-md-offset-4 alert alert-success inputGroupContainer" role="alert" id="success_message"><i class="glyphicon glyphicon-thumbs-up"></i> Success!</div>
 			</div>
 
 		</fieldset>
